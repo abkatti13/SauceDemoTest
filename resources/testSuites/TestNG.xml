@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Ecomm app UI Automation">
+    <test name="Positive case">
+        <classes>
+            <class name="tests.TestFiles.PositiveFlow" />
+        </classes>
+    </test>
+    <test name="Error case">
+        <classes>
+            <class name="tests.TestFiles.ErrorValidationTest" />
+        </classes>
+    </test>
+</suite>
